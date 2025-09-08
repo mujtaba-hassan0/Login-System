@@ -2,64 +2,6 @@ import javax.script.ScriptContext;
 import javax.swing.*;
 import java.sql.SQLOutput;
 import java.util.Scanner;
-/*
-class Login{
-
- String num,ousername,oemail,opassword,nusername,nemail,npassword;
- Scanner sc = new Scanner(System.in);
- void profile(){
-    System.out.println("*****Creating Account*****");
-    System.out.println("Enter Name: ");
-    ousername=sc.nextLine();
-    System.out.println("Enter Email Address: ");
-    oemail=sc.nextLine();
-    System.out.println("Enter Password: ");
-    opassword=sc.nextLine();
-    System.out.println("Enter Contact Number: ");
-    num=sc.nextLine();
-    System.out.println("\n"+"Username:"+ ousername+"\n"+"Email Address: "+oemail+"\n"+ "Password: "+opassword+"\n"+"Number: "+num);}
- void login(){
-        System.out.println("*****Login Page*****");
-        System.out.println("Enter Email Address: ");
-        nemail=sc.nextLine();
-        if (oemail.equals(nemail)){
-            System.out.println("Enter Password: ");
-            npassword=sc.nextLine();
-            if (npassword.equals(opassword)){
-                System.out.println("Hello!" + ousername);
-            }
-            else{
-            while (!npassword.equals(opassword)){
-                System.out.println("Invalid! password please enter again");
-                npassword=sc.nextLine();
-            }System.out.println("Hello!" + ousername);}}
-        else {
-            while (!nemail.equals(oemail)){
-                System.out.println("Inavlid! Email please enter again");
-                nemail=sc.nextLine();
-        }           System.out.println("Enter Password: ");
-            npassword=sc.nextLine();
-            if (npassword.equals(opassword)){
-                System.out.println("Hello!" + ousername);
-            }
-            else{
-                while (!npassword.equals(opassword)){
-                    System.out.println("Invalid! password please enter again");
-                    npassword=sc.nextLine();
-                }System.out.println("Hello!" + ousername);}   }
-        }
- }
-
-class hi{
-    public static void main(String[] args) {
-        Login obj = new Login();
-        obj.profile();
-        obj.login();
-    }
-}
-*/
-
-
 
 import javax.swing.*;
 
@@ -124,4 +66,5 @@ class h{
 Login obj = new Login();
         obj.signup();
     }
+
 }
